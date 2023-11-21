@@ -18,3 +18,6 @@ valid.df=bank.df[-train.index,]
 logit.reg=glm(Personal.Loan~Income,data=train.df,family="binomial")
 options(scipen=999)
 summary(logit.reg)
+
+
+
